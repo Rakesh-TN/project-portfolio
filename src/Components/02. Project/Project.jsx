@@ -11,6 +11,7 @@ function Project() {
     <>
       <main className='bg-primary-subtle'>
         <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
+        <h1>Project</h1>
           <div className='row'>
           <Card style={{ width: '16rem' }} className='col-lg-4 p-1 m-5 row justify-content-evenly'>
             <Card.Img variant="top" src={ecomSite} />
@@ -27,20 +28,19 @@ function Project() {
             <Card.Body>
               <Card.Title>Weather Site</Card.Title>
               <Card.Text>
-                This Site is build with HTML, CSS, Javascript and 
+                This Site is build with HTML, CSS, Javascript and Open Weather API
               </Card.Text>
-              <Button variant="primary" href='https://subtle-toffee-c03964.netlify.app/' target='_blank'>Click Here</Button>
+              <Button variant="primary" href='https://weather-finder-369.netlify.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5'>
             <Card.Img variant="top" src={BMISite}/>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>BMI Calculator</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+              This Site is build with HTML, CSS and ReactJS
               </Card.Text>
-              <Button variant="primary" href='https://subtle-toffee-c03964.netlify.app/' target='_blank'>Click Here</Button>
+              <Button variant="primary" href='https://effervescent-squirrel-4ab9f2.netlify.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
           </div>
