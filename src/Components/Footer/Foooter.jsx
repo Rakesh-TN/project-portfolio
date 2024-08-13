@@ -5,7 +5,7 @@ import resumeIcons from './Assets/trees-forest-svgrepo-com.svg'
 
 function Foooter() {
   return (
-    <>
+    <main className='p-1'>
       <footer class="d-flex flex-wrap justify-content-between align-items-center p-5 m-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -19,7 +19,7 @@ function Foooter() {
           <li class="ms-3"><a href='https://rakeshprofilecard.netlify.app/' target='_blank'><img src={resumeIcons} className='w-25' /></a></li>
         </ul>
       </footer>
-    </>
+    </main>
   )
 }
 
