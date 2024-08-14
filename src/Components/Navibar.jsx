@@ -20,7 +20,6 @@ function Navibar() {
               <Nav.Link as={Link} to={'/'} className='text-light'>Home</Nav.Link>
               <Nav.Link as={Link} to={'/project'} className='text-light'>Project</Nav.Link>
               <Nav.Link as={Link} to={'/skills'} className='text-light'>Skills</Nav.Link>
-              <Nav.Link as={Link} to={'/contact'} className='text-light'>Skills</Nav.Link>
               <Nav.Link href='https://drive.google.com/file/d/1MOXelHK6w55bnyjHgsxGOgKDWQ57UAt-/view?usp=sharing' target='_blank' className='text-light'>Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
