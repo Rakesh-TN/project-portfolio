@@ -13,7 +13,7 @@ function Project() {
         <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
         <h1>Project</h1>
           <div className='row'>
-          <Card style={{ width: '16rem' }} className='col-lg-4 p-1 m-5 row justify-content-evenly'>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 row justify-content-evenly'>
             <Card.Img variant="top" src={ecomSite} />
             <Card.Body>
               <Card.Title>E-Commerce Site</Card.Title>

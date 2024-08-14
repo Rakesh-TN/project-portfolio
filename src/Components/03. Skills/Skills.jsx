@@ -15,35 +15,35 @@ function Skills() {
         <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
           <h1>Skills</h1>
             <div className='row p-5'>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={html5Icon} className='skillIcon img-fluid' />
                 <p>HTML</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={css3Icon} className='skillIcon img-fluid' />
                 <p>CSS</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={jsIcon} className='skillIcon img-fluid' />
                 <p>Javascript</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={reactIcon} className='skillIcon img-fluid' />
                 <p>React JS</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={phpIcon} className='skillIcon img-fluid' />
                 <p>PHP</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={mysqlIcon} className='skillIcon img-fluid' />
                 <p>MySQL</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={pythonIcon} className='skillIcon img-fluid' />
                 <p>Python</p>
               </div>
-              <div className='col-6 col-lg-3 p-5 text-center'>
+              <div className='col-6 col-lg-3 p-2 text-center'>
                 <img src={wordpressIcon} className='skillIcon img-fluid' />
                 <p>wordPress</p>
               </div>
