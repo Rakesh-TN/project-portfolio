@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ecomSite from './Assets/Ecom-Site.svg'
 import weatherSite from './Assets/Weather-Site.svg'
 import BMISite from './Assets/BMI_calculator.svg'
+import portfolioSite from './Assets/portfolio_website.svg'
 
 
 function Project() {
@@ -41,6 +42,16 @@ function Project() {
               This Site is build with HTML, CSS and ReactJS
               </Card.Text>
               <Button variant="primary" href='https://effervescent-squirrel-4ab9f2.netlify.app/' target='_blank'>Click Here</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5'>
+            <Card.Img variant="top" src={portfolioSite}/>
+            <Card.Body>
+              <Card.Title>Old Portfolio</Card.Title>
+              <Card.Text>
+              This Site is build with HTML, CSS, ReactJS and EmailJS
+              </Card.Text>
+              <Button variant="primary" href='https://old-portfolio-six-jade.vercel.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
           </div>
