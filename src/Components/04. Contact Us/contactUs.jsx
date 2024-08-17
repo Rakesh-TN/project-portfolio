@@ -1,8 +1,15 @@
 import React from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 function ContactPage() {
+
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[])
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -19,7 +26,7 @@ function ContactPage() {
         <main className='bg-primary-subtle'>
             <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
                 <h1>Contact</h1>
-                <div className='card p-5'>
+                <div className='card p-5' data-aos='fade-down'>
                     <form ref={form} onSubmit={sendEmail}>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Name</label>

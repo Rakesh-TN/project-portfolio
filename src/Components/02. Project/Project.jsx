@@ -14,8 +14,8 @@ function Project() {
       <main className='bg-primary-subtle'>
         <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
         <h1>Project</h1>
-          <div className='row mx-5'>
-          <Card style={{ width: '18rem' }} className='col-lg-4 m-5 row justify-content-evenly'>
+          <div className='row text-center' >
+          <Card style={{ width: '18rem' }} className='col-lg-4 m-5 row justify-content-evenly' data-aos='fade-down'>
             <Card.Img variant="top" src={ecomSite} />
             <Card.Body>
               <Card.Title>E-Commerce Site</Card.Title>
@@ -25,7 +25,7 @@ function Project() {
               <Button variant="primary" href='https://subtle-toffee-c03964.netlify.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly'>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly' data-aos='fade-down'>
             <Card.Img variant="top" src={weatherSite}/>
             <Card.Body>
               <Card.Title>Weather Site</Card.Title>
@@ -35,7 +35,7 @@ function Project() {
               <Button variant="primary" href='https://weather-finder-369.netlify.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly'>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly' data-aos='fade-down'>
             <Card.Img variant="top" src={BMISite}/>
             <Card.Body>
               <Card.Title>BMI Calculator</Card.Title>
@@ -45,7 +45,7 @@ function Project() {
               <Button variant="primary" href='https://effervescent-squirrel-4ab9f2.netlify.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly'>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly' data-aos='fade-down'>
             <Card.Img variant="top" src={portfolioSite}/>
             <Card.Body>
               <Card.Title>Old Portfolio</Card.Title>
@@ -55,7 +55,7 @@ function Project() {
               <Button variant="primary" href='https://old-portfolio-six-jade.vercel.app/' target='_blank'>Click Here</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly'>
+          <Card style={{ width: '18rem' }} className='col-lg-4 p-1 m-5 justify-content-evenly' data-aos='fade-top'>
             <Card.Img variant="top" src={wilsonSite}/>
             <Card.Body>
               <Card.Title>Wilson Bread</Card.Title>
