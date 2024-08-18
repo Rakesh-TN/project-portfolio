@@ -13,7 +13,7 @@ function Home() {
         <>
             <main className='bg-primary-subtle'>
                 <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
-                    <div className='container madMax'>
+                    <div className='container m'>
                     <div className='row'>
                         <div className='d-flex col-lg-6 align-items-center'>
                             <div className='py-3' data-aos='fade-right'>

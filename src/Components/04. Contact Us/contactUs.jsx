@@ -1,49 +1,31 @@
 import React from 'react'
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+import { Button } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 
 function ContactPage() {
 
-    useEffect(()=>{
-        Aos.init({duration: 2000});
-    },[])
-
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_jdm3kkc', 'template_vyf69no', form.current, 'wPkRCg-AS-14oUwsD')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
     return (
         <main className='bg-primary-subtle'>
             <section className='d-flex flex-column justify-content-center align-items-center min-vh-100'>
                 <h1>Contact</h1>
-                <div className='card p-5' data-aos='fade-down'>
-                    <form ref={form} onSubmit={sendEmail}>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
+                <div className='card p-3 m-5'>
+                    <div className="mb-3">
+                        <label for="exampleFormControlInput1" className="form-label">Name</label>
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="yourname@example.com" />
+                    <div className="mb-3">
+                        <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email Id" />
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message </label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                    <div className="mb-3">
+                        <label for="exampleFormControlTextarea1" className="form-label">Message</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div className='text-center'>
-                                <input className='btn btn-success' type="submit" value="Send Me" />
-                            </div>
-                    </form>
+                        <Button variant="success">Submit It</Button>
+                    </div>
                 </div>
             </section>
         </main>
